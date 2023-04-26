@@ -19,6 +19,7 @@ int main(void)
 	/*}*/
 
 	print("Infinite loop avoided! \\o/\n");
+	
 	return (0);
 }
 
