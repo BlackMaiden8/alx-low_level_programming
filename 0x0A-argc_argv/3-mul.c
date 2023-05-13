@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+#include <stdlib.h>
 
 /**
  * main - Write a program that multiplies two numbers
@@ -8,7 +8,7 @@
  * @argc: number of arguments
  * @argv: array of arguments
  *
- * Return: 0 (Success), 1 (Error);
+ * Return: 0 (Success);
  */
 int main(int argc, char *argv[])
 {
