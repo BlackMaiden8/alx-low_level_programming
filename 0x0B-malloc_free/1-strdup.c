@@ -4,7 +4,7 @@
 /**
  * _strdup - returns a pointer to a new string which is a duplicate
  * of the string
- * @str: pointer to string being duplicated 
+ * @str: pointer to string being duplicated
  *
  * Return: pointer to the duplicated string, NULL if str is NULL
  * NULL if insufficient memory was available
@@ -21,6 +21,8 @@ char *_strdup(char *str)
 		i++;
 
 	hstr = malloc(sizeof(char) * (i + 1));
+
+	/*check if malloc is sucessful*/
 
 	if (hstr == NULL)
 		return (NULL);
